@@ -27,7 +27,7 @@ jobs:
 
       - name: Deploy to Railway
         run: |
-          railway up --service challenge-6
+          railway up --service BEJS_fgabatch2_RidhoReynaldo_ChallangeChapter6
 
       - name: Setup database
-        run: railway run --service challenge-6 npx prisma migrate deploy
+        run: railway run --service BEJS_fgabatch2_RidhoReynaldo_ChallangeChapter6 npx prisma migrate deploy
